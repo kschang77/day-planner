@@ -54,12 +54,14 @@ No installation required
 
 ## Screenshots
 
-Coming soon
+[Main view](screenshot01.png)
 
 
 ## Potential enhancements
 
-Coming soon
+Can probably improve UI with tweaks here and there, like expand text 
+area dynamically to fit the central box, and put a real icon in the 
+save button area. 
 
 
 # Deployed Link
