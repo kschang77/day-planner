@@ -25,9 +25,14 @@ textarea{
   white-space: pre-wrap;
 }
 
+.t-display {
+  color: #000000;
+}
+
 .time-block{
-  text-align: center;
+  text-align: left;
   border-radius: 15px;
+  color: #000000;
 }
 
 .row {

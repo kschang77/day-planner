@@ -21,13 +21,35 @@ No installation required
 # Built With
 
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-Bootstrap 4
-Moments.js
+
+[Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+[Moment.js](https://momentjs.com/)
+
+[FontAwesome](https://fontawesome.com/)
+
+[Google Fonts](https://fonts.google.com/)
+
+[jQuery](https://jquery.com/)
 
 
 ## Code Snippet
 
-Coming soon
+        $(".saveBtn").on("click", function(event) {
+            event.preventDefault();
+            var el = this.className;
+            arr = el.split(" ");
+            curHours = arr[0];
+            var txtArea = $(
+                "textarea." + curHours
+            ).val();
+            saveRow(curHours, txtArea);
+            $("." + curHours + ".inputvis.t-display"
+            ).text(txtArea);
+            $("." + curHours + ".inputvis"
+            ).toggle();
+            });
+
 
 
 ## Screenshots
@@ -42,7 +64,7 @@ Coming soon
 
 # Deployed Link
 
-Coming soon
+https://kschang77.github.io/day-planner/
 
 
 ## Author
