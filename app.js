@@ -69,7 +69,7 @@ for (i = startDay; i <= endDay; i++) {
     "display:none"
   );
   var inputArea = $("<textarea/>")
-    .attr("cols", "60")
+    .attr("style", "width:100%")
     .addClass("hour-" + i)
     .addClass("input" + i)
     .val(curVal);
