@@ -53,7 +53,7 @@ Upon clicking on "save" button, the class name of the cell is used to derive the
 
 ## Screenshots
 
-[Main view](screenshot01.png)
+![Main view](screenshot01.png)
 
 
 ## Potential enhancements
