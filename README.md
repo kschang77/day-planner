@@ -2,21 +2,19 @@
 
 Project "Day Planner" is a mini app where user can write down notes for 
 each hour from 9AM to 5PM, with immediate visibily of hours yet to come,
-current hours, and hours past. Click to edit, save to save. Notes are persistent
+current hours, and hours past. Click to edit, click save to save. Notes are persistent
 through use of localStorage. Site is responsive and will react to different 
 screen widths (within limits). 
+
+![Demo Recording](dayplannerdemo.gif)
 
 ## Project Repo
 
 http://github.com/kschang77/day-planner
 
-## Prerequisites
+## Deployed Link
 
-Any Javascript-capable browser
-
-## Installation
-
-No installation required
+https://kschang77.github.io/day-planner/
 
 # Built With
 
@@ -51,7 +49,6 @@ No installation required
             });
 
 
-
 ## Screenshots
 
 [Main view](screenshot01.png)
@@ -62,11 +59,6 @@ No installation required
 Can probably improve UI with tweaks here and there, like expand text 
 area dynamically to fit the central box, and put a real icon in the 
 save button area. 
-
-
-# Deployed Link
-
-https://kschang77.github.io/day-planner/
 
 
 ## Author
