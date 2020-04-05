@@ -33,6 +33,8 @@ https://kschang77.github.io/day-planner/
 
 ## Code Snippet
 
+Upon clicking on "save" button, the class name of the cell is used to derive the same key, and content is saved by calling saveRow. There are actually TWO fields there, regular text that's hidde, and textare that's visible. Toggle was used to swap the visibility of the two, thus updating the local row display. 
+
         $(".saveBtn").on("click", function(event) {
             event.preventDefault();
             var el = this.className;
@@ -58,14 +60,14 @@ https://kschang77.github.io/day-planner/
 
 Can probably improve UI with tweaks here and there, like expand text 
 area dynamically to fit the central box, and put a real icon in the 
-save button area. 
+save button area via FontAwesome or similar icon projects. 
 
 
 ## Author
 
 **Kasey Chang** 
 
-- [Link to Github](https://github.com/kschang77)
+- [Link to Github](https://kschang77.github.io)
 - [Link to LinkedIn](https://www.linkedin.com/in/kasey-chang)
 
 
